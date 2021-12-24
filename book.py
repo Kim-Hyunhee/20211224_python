@@ -18,6 +18,8 @@ class Book :   # =>
         self.rf = rent_fee
         self.la = limit_age
         
+        main_title = '임시 제목'
+        
             
     # 책의 정보를 출력하는 기능
     def print_book_info(self):   # 파라미터가 필요 없다. => 그렇지만 시킨 주체가 누구인지는 있어야 하므로 self는 써줌
