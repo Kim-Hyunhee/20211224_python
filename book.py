@@ -8,7 +8,7 @@ class Book :   # =>
     
     # 책의 데이터들을 세팅하는 기능 - 메쏘드 생성 : set_data
     
-    def set_data( self, title, rent_fee, limit_age ):   # 파라미터들은 def 안에서만 쓰는 일회용 self.()이 계속 사용할 수 있다.
+    def set_data( self, title, rent_fee, limit_age ):   # 파라미터들은 def 안에서만 쓰는 일회용 self.변수가 계속 사용할 수 있다.
         # self : 어떤 책을 다룰지 인스턴스를 가리킴
         # self 변수의 하위 정보들을 세팅해주자
         
