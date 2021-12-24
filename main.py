@@ -64,6 +64,9 @@ print(result)
 
 user1 = User()
 user1.set_data ('김현희', 1995, 10000)
+
+print(f'사용자1의 이름 : {user1.name}')
+
 user1.print_user_info()
 
 
@@ -73,4 +76,8 @@ user2.name = '김학생'
 user2.birth_year = 2005
 user2.point = 5000
 
+user2.is_man = False  # 변수를 만들 수는 있지만 추천하지 않음
+
 user2.print_user_info()
+
+print(f'성별 : {user2.is_man}')
