@@ -34,15 +34,10 @@ test02 = '테스트 변수'
 def add_and_print(num1,num2):
     print(num1 + num2)
     print(test02)
-        
-    test = 10
+
     
     
 add_and_print(5, 11)
-print(test)   # 함수 안에서 사용한 것은 밖에서 프린트 못함(에러)
-
-main_title
-
 
 
 
@@ -55,3 +50,12 @@ if num > 5:
     result = '5보다 크다.'
     
 print(result)
+
+# 연습문제. 클래스 추가 - User
+# set_data 메쏘드 => 이름, 출생년도, 보유포인트를 받아서 저장
+# print_user_info 메쏘드 => 위의 3가지 정보 출력
+
+
+# 사용자 한명 생성 '본인이름', 출생년도, 10000으로 데이터 세팅
+# 정보 출력
+
