@@ -18,9 +18,15 @@ class Book :   # =>
         self.rf = rent_fee
         self.la = limit_age
         
+            
     # 책의 정보를 출력하는 기능
     def print_book_info(self):   # 파라미터가 필요 없다. => 그렇지만 시킨 주체가 누구인지는 있어야 하므로 self는 써줌
         print('===== 도서 정보 출력 =====') 
         print(f'제목 : {self.t} ')   # 명령을 시킨 책의 제목에 접근
         print(f'대여료 : {self.rf}')
-        print(f'연령 제한 : {self.la}세 이용가')
+        
+        # self.la 에 담김 값에 따라 -> 다르게 출력 (if 활용)
+        if self.la == 0:
+            print(f'연령 제한 : 전체 이용가')
+        else:
+            print(f'연령 제한 : {self.la}세 이용가')
