@@ -30,3 +30,4 @@ class Book :   # =>
             print(f'연령 제한 : 전체 이용가')
         else:
             print(f'연령 제한 : {self.la}세 이용가')
+            

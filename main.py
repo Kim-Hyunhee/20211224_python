@@ -28,6 +28,7 @@ book3.set_data('뽀로로', 500, 0)
 book3.print_book_info()
 
 
+# 함수와의 비교를 위한 예시 코드
 def add_and_print(num1,num2):
     print(num1 + num2)
     
