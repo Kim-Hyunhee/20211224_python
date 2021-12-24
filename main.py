@@ -4,12 +4,12 @@ from user import User
 # 만들어 둔 클래스들을 활용해서 실제 동작 관련 코드 작성
 
 # 책의 인스턴스 하나를 생성  + 변수에 담아두자
-book1 = Book()
+book1 = Book('타짜', 700, 19)   # Book 클래스의 생성자에서는 파라미터 3개 요구 (하도록 수정됨), 사용시에는 arguments를 안 보내고 있다.
 
 # 방금 만든 책의 데이터 설정 ( 타짜, 700, 19 )
 
 # set_data 메쏘드의 self 파라미터에는 book1이 대입됨
-book1.set_data( '타짜', 700, 19 )  # 전달인자 (arguments)들을 self 파라미터만 제외하고 작성
+# book1.set_data( '타짜', 700, 19 )  # 전달인자 (arguments)들을 self 파라미터만 제외하고 작성
 
 book1.print_book_info()
 
@@ -80,4 +80,9 @@ user2.is_man = False  # 변수를 만들 수는 있지만 추천하지 않음
 
 user2.print_user_info()
 
-print(f'성별 : {user2.is_man}')
+# 사용자 클래스에도 생성자 추가. 이름 / 출생 년도 / 포인트 한꺼번에 입력
+# 기존 기본생성자()를 유지해보자
+
+user3 =  User('이아동', 2012, 1000)
+
+user3.print_user_info()

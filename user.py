@@ -1,5 +1,11 @@
 
 class User:
+    
+    def __init__(self, name = '이름 없음', birth_year = 0, point = 0):
+        self.name = name
+        self.birth_year =birth_year
+        self.point = point
+        
 
     def set_data(self, name, birth_year, point):
         # self. 변수는 self 내부에 달려있는 변수
@@ -16,3 +22,4 @@ class User:
         print(f'이름 : {self.name}')
         print(f'출생 년도 : {self.birth_year}년')
         print(f'보유 포인트 : {self.point} P')
+        
