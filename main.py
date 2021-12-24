@@ -65,3 +65,12 @@ print(result)
 user1 = User()
 user1.set_data ('김현희', 1995, 10000)
 user1.print_user_info()
+
+
+user2 = User()
+
+user2.name = '김학생'
+user2.birth_year = 2005
+user2.point = 5000
+
+user2.print_user_info()
