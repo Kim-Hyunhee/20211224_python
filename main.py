@@ -33,3 +33,8 @@ def add_and_print(num1,num2):
     print(num1 + num2)
     
 add_and_print(5, 11)
+
+
+
+
+book1.is_rent_available( 2000 )
