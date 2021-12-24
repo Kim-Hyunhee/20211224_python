@@ -26,3 +26,9 @@ book2.print_book_info()
 book3 = Book()
 book3.set_data('뽀로로', 500, 0)
 book3.print_book_info()
+
+
+def add_and_print(num1,num2):
+    print(num1 + num2)
+    
+add_and_print(5, 11)
